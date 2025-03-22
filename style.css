@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    border-radius:10px ;
+}
+body{
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+}
+#input{
+    background-image:url("https://cdn.pixabay.com/photo/2016/10/29/01/24/abstract-1779559_960_720.jpg");
+    width:100vw;
+    height:50vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    color:white;
+
+}
+h1{
+    font-size:10px;
+}
+p{
+    font-size:10px;
+    margin:10px;
+}
+#number{
+     /* width:150px;
+     height:40px; */
+     font-size:2em;
+     border:none;
+     /* padding: 0px 10px; */
+}
+#button{
+    /* width:100px;
+    height:40px; */
+    font-size:1.2em;
+    border:none;
+    background-color:aqua;
+    color:black;
+}
+.circle{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    position:relative;
+    color:white;
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    margin:10px;
+    text-align:center;
+    background-color: brown;
+    color:white;
+}
+.square{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    position:relative;
+    color:white;
+    height:50px;
+    width:50px;
+    margin:10px;
+    text-align:center;
+    background-color: rgb(101, 28, 236);
+    color:white;
+}
+.rectangle{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    position:relative;
+    color:white;
+    height:50px;
+    width:80px;
+    margin:10px;
+    text-align:center;
+    background-color: rgb(28, 236, 73);
+    color:white;
+}
+#box{
+    display:flex;
+    flex-wrap:wrap;
+}
